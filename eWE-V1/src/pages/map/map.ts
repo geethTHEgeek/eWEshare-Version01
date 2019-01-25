@@ -2,7 +2,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 import { IonicPage } from 'ionic-angular';
 
 
-declare var google;
+
 
 @IonicPage()
 @Component({
