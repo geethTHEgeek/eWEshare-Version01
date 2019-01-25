@@ -1,5 +1,7 @@
 {
   "name": "eWE-V1",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
