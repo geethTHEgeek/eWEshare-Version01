@@ -31,10 +31,17 @@ export class MapPage {
       zoom:18,
       mapTypeId:google.maps.MapTypeId.ROADMAP
 
+
     }
 
     this.map=new google.maps.Map(this.mapElement.nativeElement,mapopts)
+
+    
+    
   }
+
+
+  
 
 
 }
