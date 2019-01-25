@@ -34,9 +34,9 @@ export class MapPage {
 
     }
 
-    this.map=new google.maps.Map(this.mapElement.nativeElement,mapopts)
+    this.map=new google.maps.Map(this.mapElement.nativeElement,mapopts);
 
-    
+
     
   }
 
