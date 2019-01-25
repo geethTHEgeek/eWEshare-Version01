@@ -34,10 +34,14 @@ export class MapPage {
 
     }
 
-
     this.map=new google.maps.Map(this.mapElement.nativeElement,mapopts);
 
-    
+    let marker : google.maps.Marker = new google.maps.Marker({
+      map:this.map,
+      position:coord
+
+    })
+
     
   }
 
